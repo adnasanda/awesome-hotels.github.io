@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="icon" href="assets/img/logo.png">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>AWESOME HOTELS</title>
+    </head>
+    <body>
+        <!-------- HEADER -------->
+        <header class="l-header">
+
+            <!-------- NAV -------->
+            <nav class="nav bd-grid">
+                                <div>
+                    <h6>AWESOME HOTELS</h6>
+                </div>
+
+                <div>
+                    <a href="#" class="button">BOOK NOW</a>
+               </div> 
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">ABOUT</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">HOTELS</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">EXPERIENCE</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu-alt-right'></i>
+                </div>
+            </nav>
+
+
+        </header>
+
+        <main class="l-main">
+
+
+
+ <!------------------------------------ CARUSEL ------------------------------------>
+
+<style>
+    .carousel-item{
+        height: 40rem;
+        background: black;
+        color: white;
+        position: relative;
+
+    }
+    .container{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-bottom: 50px;
+    }
+    .overlay-image{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.5;
+    }
+</style>
+
+
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+        </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="8000">
+            <div class="overlay-image" style="background-image: url(assets/img/dubai.jpg);"></div>
+            <div class="container">
+                <div align="center"><h1>AWESOME HOTELS</h1><img src="assets/img/logo-header.png"></div>
+                <h2>Dubai</h2>
+                <p>Leave the day-to-day behind and allow us to spoil you from top to toe. Don your fluffy robes and choose to relax the way you enjoy most – be it sauna or steam room, massage. </p>
+                <a href="#" class="btn btn-lg btn-primary">THREE NIGHTS FOR TWO</a>
+            </div>
+        </div>
+        <div class="carousel-item" data-interval="8000">
+            <div class="overlay-image" style="background-image: url(assets/img/london.jpg);"></div>
+            <div class="container">
+                <div align="center"><h1>AWSOME HOTELS</h1><img src="assets/img/logo-header.png"></div>
+                <h2>London</h2>
+                <p>Make it a November to remember with our Autumn Extras and experience great British tradition of Afternoon Tea. Includes a host of great deals.</p>
+                <a href="#" class="btn btn-lg btn-primary">GET A VOUCHER NOW</a>
+            </div>
+        </div>
+        <div class="carousel-item" data-interval="8000">
+            <div class="overlay-image" style="background-image: url(assets/img/new_york.jpg);"></div>
+            <div class="container">
+                <div align="center"><h1>AWSOME HOTELS</h1><img src="assets/img/logo-header.png"></div>
+                <h2>New York</h2>
+                <p>We remain open this November and December, so come on here and relax finally! 4 big Black Friday deals launch over this week from gift vouchers, to room deals, spa & afternoon tea.</p>
+                <a href="#" class="btn btn-lg btn-primary">CHECK BLACK FRIDAY DEALS</a>
+            </div>
+        </div>
+    </div>
+    <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+   <span class="sr-only">Previous</span> 
+   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+        <span class="sr-only">Next</span> 
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         </a>
+    </div>
+
+ <!------------------------------------ END CARUSEL ------------------------------------>
+ 
+<section class="zig-zag section" id="zigzag">
+
+    <div class="zig-zag__container bd-grid">
+     
+        <div>
+            <h2 class="zig-zag__subtitle">Swim and relax in our hidden pool, somewhere on the other side of the Planet. </h2>
+            <p class="zig-zag__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+        </div> 
+        <div class="zig-zag__img  resize__img">
+            <img src="assets/img/experience.jpg" alt="">
+        </div>               
+    </div>
+
+</section>
+
+<img src="assets/img/line.png" class="bd-grid line">
+
+<section class="zig-zag section" id="zigzag">
+   
+    <div class="zig-zag__container bd-grid">
+        <div class="zig-zag__img  resize__img">
+            <img src="assets/img/hall.jpg" alt="">
+        </div>
+        <div>
+            <h2 class="zig-zag__subtitle">Get lost and seat in our famous history hall, learn more about real stories from the past and forget year 2020.</h2>
+            <p class="zig-zag__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+        </div>                       
+
+
+</section>
+             
+<img src="assets/img/line.png" class="bd-grid line">      
+
+<section class="zig-zag section" id="zigzag">
+
+    <div class="zig-zag__container bd-grid">
+        <div>
+            <h2 class="zig-zag__subtitle">Best view in best city in the world, don't be afraid, seat on the edge and 
+                absorb reality.</h2>
+            <p class="zig-zag__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+        </div> 
+        <div class="zig-zag__img resize__img">
+            <img src="assets/img/on_the_edge.jpg" alt="">
+        </div>                               
+    </div>
+</div>
+</section>        
+        
+
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">AWSOME HOTELS</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
